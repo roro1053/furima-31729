@@ -57,6 +57,5 @@
 | postal_cord     | string     | null: false       |
 
 
-- belongs_to :user
-- belongs_to :item
+
 - belongs_to :buy_record
