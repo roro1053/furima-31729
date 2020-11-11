@@ -55,6 +55,6 @@
 | building_name   | string     |                   |
 | phone_number    | string     | null: false       |
 | postal_cord     | string     | null: false       |
-
+| buy_record      | references | foreign_key: true |
 
 - belongs_to :buy_record
