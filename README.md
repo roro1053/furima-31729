@@ -56,6 +56,7 @@
 | phone_number    | string     | null: false       |
 | postal_cord     | string     | null: false       |
 
+
 - belongs_to :user
 - belongs_to :item
-- belongs_to :shipping_address
+- belongs_to :buy_record
