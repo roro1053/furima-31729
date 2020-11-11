@@ -18,16 +18,16 @@
 
 ## items テーブル
 
-|     Column      |   Type     |       Options     |
-|-----------------|------------|-------------------|
-| name            | string     | null: false       |
-| comment         | text       | null: false       |
-| category        | integer    | null: false       |
-| status          | integer    | null: false       |
-| user            | references | foreign_key: true |
-| delivery_fee    | integer    | null: false       |
-| shipment_source | integer    | null: false       |
-| shipping_day    | integer    | null: false       |
+|      Column       |   Type     |       Options     |
+|-------------------|------------|-------------------|
+| name              | string     | null: false       |
+| comment           | text       | null: false       |
+| category_id       | integer    | null: false       |
+| status_id         | integer    | null: false       |
+| user              | references | foreign_key: true |
+| delivery_fee_id   | integer    | null: false       |
+| shipment_source_id| integer    | null: false       |
+| shipping_day_id   | integer    | null: false       |
 
 ### Association
 - belongs_to :user
@@ -55,7 +55,6 @@
 | building_name   | string     |                   |
 | phone_number    | string     | null: false       |
 | postal_cord     | string     | null: false       |
-
 
 
 - belongs_to :buy_record
