@@ -3,7 +3,6 @@
 |       Column       |  Type   |   Options    |
 |--------------------|---------|--------------|
 | nickname           | string  | null: false  |
-| password           | string  | null: false  |
 | encrypted_password | string  | null: false  |
 | email              | string  | null: false  |
 | first_name         | string  | null: false  |
