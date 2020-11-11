@@ -14,7 +14,6 @@
 ### Association
 - has_many :items
 - has_many :buy_records
-- has_many :shipping_addresses
 
 ## items テーブル
 
