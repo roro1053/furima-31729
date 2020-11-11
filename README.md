@@ -51,10 +51,10 @@
 |-----------------|------------|-------------------|
 | prefecture_id   | integer    | null: false       |
 | city            | string     | null: false       |
-| house_number    | references | foreign_key: true |
-| building_name   | references | foreign_key: true |
-| phone_number    | references | foreign_key: true |
-| postal_cord     | references | foreign_key: true |
+| house_number    | string     | null: false       |
+| building_name   | string     |                   |
+| phone_number    | string     | null: false       |
+| postal_cord     | string     | null: false       |
 
 - belongs_to :user
 - belongs_to :item
